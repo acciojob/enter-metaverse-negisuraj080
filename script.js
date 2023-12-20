@@ -1,5 +1,4 @@
 document.getElementById('enterBtn').addEventListener('click', function() {
-  // Change the content of the "p" tag with id "status"
-  document.getElementById('status').textContent = 'Entered Metaverse';
+  document.getElementById('status').innerHTML = "<h1>Entered Metaverse</h1>";
 });
 
